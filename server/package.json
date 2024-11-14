@@ -1,0 +1,22 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Manoj Kumar B",
+  "license": "ISC",
+  "description": "A Wonderful App that keeps track of all your passwords for you. No need to remember them anymore.",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "nodemailer": "^6.9.16"
+  }
+}
